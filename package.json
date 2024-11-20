@@ -1,0 +1,27 @@
+{
+  "name": "bloomtobe",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.4.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

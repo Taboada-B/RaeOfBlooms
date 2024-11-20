@@ -1,0 +1,6 @@
+yellow - n#FFDA5F
+tan - #FFFCF0
+pink - #FFAAE0
+Green - #A7CB79
+Light Blue - #8FC0ED
+Dark Blue - #6995BD

@@ -1,0 +1,270 @@
+:root {
+  --yellow: #FEDA60;
+  --tan: #F9EBD0;
+  --pink: #FEA9E0;
+  --green: #A8CB7B;
+  --lightBlue:#8DBEE9;
+  --darkBlue: #6995bd; 
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: var(--tan);
+  font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+.darkBlueFont {
+  color: var(--darkBlue);
+}
+
+.greenFont {
+  color: var(--green)
+}
+
+
+/* Banner styles */
+.topNav {
+  background-color: var(--tan);
+}
+
+#logo {
+  /* width: auto; */
+  height: 12rem;
+  /* border-radius: 25px; */
+  
+}
+.bloomTitle {
+  color: var(--darkBlue);
+  font-size: 4.5rem;
+}
+
+.catchPhrase {
+  color: var(--green);
+  font-size: xx-large;
+  font-family: 'Brush Script MT', cursive;
+  /* font-family: 'Comic Sans MS', cursive; */
+  /* font-family: 'Pacifico', cursive; */
+  }
+
+/* Hover effects for links */
+.nav-link {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 10px;
+  color: var(--green);
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  background-color: var(--lightBlue);
+  color: white !important;
+  transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+
+
+@media (max-width: 1200px) {
+  #logo {
+    margin-bottom: 10px;
+  }
+
+}
+
+/* HomeScreen */
+
+/* Overlay text styling */
+.overlay-text h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.overlay-text p {
+  font-size: 3rem;
+}
+
+@media (max-width: 720px) {
+  /* Overlay text styling */
+.overlay-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.overlay-text p {
+  font-size: 2.5rem;
+}
+  
+}
+
+@media (max-width: 500px) {
+  /* Overlay text styling */
+.overlay-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.overlay-text p {
+  font-size: 1.5rem;
+}
+  
+}
+
+/* Services offered */
+
+.services h2 {
+  font-family: 'Times New Roman', serif;
+  color: var(--darkBlue);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: var(--green);
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* about page */
+
+.about-us h1, .about-us h2  .about-us h3  {
+  color: var(--darkBlue);
+}
+
+.blockquote {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* contact page */
+.contactPage {
+  /* background-color: var(--); */
+  color: var(--darkBlue);
+}
+
+.contactInfo {
+  color: var(--darkBlue)
+}
+
+.contactBlock {
+  background-color: var(74);
+  border-radius: 10px;
+  border: none;
+}
+
+.contacts i {
+  color: var(--green); /* Replace with your accent color */
+  margin-right: 8px;
+}
+
+.contacts a {
+  color: #333;
+}
+
+.contacts a:hover {
+  color: var(--green); /* Replace with hover color */
+}
+
+/* Gallery */
+
+.gallery h2 {
+  color: var(--darkBlue)
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: var(--tan);
+  color: var(--darkBlue);
+  padding: 2em 0;
+  font-family: 'Times New Roman', serif;
+}
+
+.footer h2, .footer h3 {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.footer a {
+  color: var(--pink);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--green);
+}
+
+.footer-bottom {
+  font-size: 0.9em;
+}
+
+
+/* .footer {
+  background-color: var(--tan);
+  color: var(--darkBlue);
+  padding: 2em 0;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+}
+
+.footer-section {
+  margin: 0 1em;
+}
+
+.footer-section h2, .footer-section h3 {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.footer-section p, .footer-bottom p {
+  margin: 0.5em 0;
+}
+
+.footer-section a {
+  color: var(--pink);
+  margin: 0 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+}
+
+.footer-section a:hover {
+  color: var(--green);
+}
+
+.footer-bottom {
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+.contact, .social, .about {
+  width: 33%;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+} */
