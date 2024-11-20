@@ -5,17 +5,17 @@ const servicesData = [
   {
     title: "Moral Support",
     description: "I am there for you for your party",
-    image: "",
+    image: "./rose.jpg",
   },
   {
     title: "Flowers",
     description: "Love the flowers, they are pretty",
-    image: "",
+    image: "./bouquet.jpg",
   },
   {
     title: "Signs",
     description: "Everyone loves a sign to take a picture in front of",
-    image: "",
+    image: "./signs.jpg",
   },
   // Add more services as needed
 ];

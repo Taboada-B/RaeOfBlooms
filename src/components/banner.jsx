@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="row align-items-center">
           {/* Logo on the left */}
           <div className="col-12 col-lg-3 text-center text-lg-start mb-3 mb-lg-0">
-            <img id="logo" src="./logoTan.png" alt="Bloom Logo" className="img-fluid" />
+            <img id="logo" src="./logo.jpg" alt="Bloom Logo" className="img-fluid" />
           </div>
 
           {/* Title and Navigation in the center */}

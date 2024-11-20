@@ -6,6 +6,16 @@ function Gallery() {
   const images = [
  
 
+    { src: "./bouquet.jpg", alt: "" },
+    { src: "./pinkRose.jpg", alt: "" },
+    { src: "./rings.jpg", alt: "" },
+    { src: "./bouquet2.jpg", alt: "" },
+    { src: "./rose.jpg", alt: "" },
+    { src: "./signs.jpg", alt: "" },
+    { src: "sunflower.jpg", alt: "" },
+    { src: "./roses.jpg", alt: "" },
+    { src: "", alt: "" },
+    { src: "", alt: "" },
     // { src: "", alt: "" },
 
     // Add more images as needed
